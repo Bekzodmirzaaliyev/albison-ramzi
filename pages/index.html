@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/config/tailwind.config.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/config/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Farmzi</title>
+</head>
+<body class='font-[Roboto]'>
+    <header class="w-full px-5 h-screen bg-[#177165]">
+        <div class="container">
+            <nav class="py-[22px] flex">
+                <a href="#" class="flex-auto hover:scale-125 flex justify-start items-center">
+                    <img src="../assets/images/logo.png" alt="">
+                </a>
+                <ul class="flex flex-auto  self-center">
+                    <li class="flex-1 text-[#A4D6CF] hover:animate-bounce hover:text-white"><a href="#">Home</a></li>
+                    <li class="flex-1 text-[#A4D6CF] hover:animate-bounce hover:text-white"><a href="#">About</a></li>
+                    <li class="flex-1 text-[#A4D6CF] hover:animate-bounce hover:text-white"><a href="#">Pages</a></li>
+                    <li class="flex-1 text-[#A4D6CF] hover:animate-bounce hover:text-white"><a href="#">Blog</a></li>
+                    <li class="flex-1 text-[#A4D6CF] hover:animate-bounce hover:text-white"><a href="#">Contact</a></li>
+                </ul>
+                <div class="flex flex-auto justify-end">
+                    <img src="../assets/images/tel.png" alt="">
+                    <div class="ml-2 text-white">
+                        <p class="text-[#A4D6CF]">Call us:</p>
+                        <a href="tel:+00 89 458 648">+00 89 458 648</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- SHOWCASE -->
+            <div class="py-2 grid grid-cols-2">
+                <!-- left -->
+                <div class="px-[135px]">
+                    <!-- line -->
+                    <div class="flex items-center gap-3">
+                        <div class="line bg-[#A4D6CF] w-[40px] h-[1px]"></div>
+                        <p class="text-[#A4D6CF] ">Make a garden with musion.</p>
+                    </div>
+
+                    <h1 class="font-['Playfair'] leading-[78px] fw-normal max-w-[455px] text-[50px] text-white">If you have a <br> garden and a <br> library, you have <br> everything you <br> need.</h1>
+                    <div class="flex items-center gap-3 mt-1">
+                        <div class="line bg-[#A4D6CF] w-[40px] h-[1px]"></div>
+                        <p class="text-[#A4D6CF]">Marcus Tullius Cicero</p>
+                    </div>
+                    <form action="">
+                        <button class="py-[9px] px-[52px] text-[#177165] bg-white border-none hover:animate-bounce mt-2">All Services +</button>
+                    </form>
+                </div>
+                <!-- right img -->
+                <div class="max-h-[600px] max-w-[500px]">
+                    <img class="w-full h-full" src="../assets/images/showcase.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="w-full px-[135px] pt-[215px] pb-[100px]">
+            <div class="flex items-center gap-3">
+                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                <p class="text-[#777777] font-[18px]">Make a garden with musion.</p>
+            </div>
+            <h3 class="font-[400] text-5xl mt-1 text-[#177165]">
+                Farmzi have 35 years of experience and know smart way to grow and design your beautiful garden.
+            </h3>
+            <div class="inline-grid grid-cols-2 gap-x-[95px] mt-12">
+                <div class="max-w-[557px] max-h-[872px]">
+                    <img class="w-full h-full" src="../assets/images/section-img.png" alt="">
+                </div>
+                <div class="flex justify-center flex-col">
+                    <h3 class="text-[#177165] text-3xl font-[400]">Who we are?</h3>
+                    <p class="mt-[26px] mb-[17px] text-[#777777]">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dumm ever since the 1500s, when an unknown printer took a galley scrambled it make a type specimen book.</p>
+                    <h4 class="text-[#177165] font-[400] text-2xl">“Lorem Ipsum is simply dummy text of the printn industry lorem epsum has been the industry and scrambled it make a type specimen book”.</h4>
+                    <h3 class="text-[#177165] text-3xl font-[400] mt-6 mb-5">Mission and vision</h3>
+                    <p class="text-[#777777]">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dumm ever since the 1500s, when an unknown printer took a galley scrambled it make a type specimen book.</p>
+                    <p class="mt-[15px] mb-[104px] text-[#777777]">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dumm scrambled it make a type specimen book.</p>
+                    <form action="">
+                        <button class="px-[60px] py-[10px] text-[#177165] border-solid border-[#177165] border-2 hover:animate-bounce"><a href="#">Learn More +</a></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full bg-[#E1F4F2] px-[135px]  pt-[215px] pb-[100px]">
+            <div class="flex items-center gap-3">
+                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                <p class="text-[#777777] font-[18px]">Make a garden with musion.</p>
+            </div>
+            <h3 class="font-[400] text-5xl mt-1 text-[#177165]">
+                Farmzi always provide amazing gardening and landscaping services.
+            </h3>
+            <div class="grid grid-cols-4 gap-[55px] mt-10">
+                <div class="card">
+                    <div class="img hover:animate-pulse">
+                        <img class="" src="../assets/images/card-1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Flower</p>
+                        </div>
+                        <h5 class="font-[400] text-2xl text-[#177165]">
+                            Planting Flower
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img  hover:animate-pulse">
+                        <img src="../assets/images/card-2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Planting</p>
+                        </div>
+                        <h5 class="font-[400] text-2xl text-[#177165]">
+                            Tree Planting
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img  hover:animate-pulse">
+                        <img src="../assets/images/card-3.png" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Rush</p>
+                        </div>
+                        <h5 class="font-[400] text-2xl text-[#177165]">
+                            Rush Removal
+                        </h5>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="img  hover:animate-pulse">
+                        <img src="../assets/images/card-4.png" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Watering</p>
+                        </div>
+                        <h5 class="font-[400] text-2xl text-[#177165]">
+                            Garden Watering
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <form class="w-full flex justify-center mt-14" action="">
+                <button class="px-[60px] py-[10px] text-[#177165] border-solid border-[#177165] border-2 hover:animate-bounce"><a href="#">More Service +</a></button>
+            </form>
+        </section>
+
+        <section class="py-14 bg-[#177165] grid grid-cols-2 gap-14 px-14">
+            <div class="text">
+                <div class="flex items-center gap-3">
+                    <div class="ml-1 bg-[#A4D6CF] w-[40px] h-[1px]"></div>
+                    <p class="text-[#A4D6CF] font-[18px]">Call To Action</p>
+                </div>
+                <h3 class="font-[400] font-[Playfair] text-5xl mt-4 text-white">
+                    If you need any gardening service, you can contact with Farmzi.
+                </h3>
+            </div>
+            <div class="contact flex items-center">
+                <div class="py-6 px-[133px] bg-[#23786D]">
+                    <a href="tel: +0089458648">
+                        <div class="flex">
+                            <img src="../assets/images/tel.png" alt="">
+                            <div class="ml-2 text-white">
+                                <p class="text-[#A4D6CF]">Our Services</p>
+                                <a href="tel:+00 89 458 648">+00 89 458 648</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-20 relative">
+            <div class="flex flex-col items-end">
+                <div class="flex items-center gap-3 mr-[470px]">
+                    <div class="ml-1 bg-[#A4D6CF] w-[40px] h-[1px]"></div>
+                    <p class="text-[#A4D6CF] font-[18px]">Team Members</p>
+                </div>
+                <h3 class="font-[400] font-[Playfair] text-5xl mt-4 text-[#177165] flex items-end max-w-[634px]">
+                    If you need any gardening service, you can contact with Farmzi.
+                </h3>
+            </div>
+            <div class="cards grid grid-cols-3 gap-10 mt-8">
+                <div class="card pb-5 hover:shadow-lg">
+                    <div class="img w-full">
+                        <img class="w-full" src="../assets/images/name-1.png" alt="Shoshana Horsley">
+                    </div>
+                    <div class="text mt-5">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Founder of Farmzi</p>
+                        </div>
+
+                        <h2 class="mt-3 font-[Playfair] text-[#177165] text-3xl">Shoshana Horsley</h2>
+
+                        <p class="text-[#777777] text-sm max-w-[293px] mt-3">Lorem Ipsum is simply dummy text of the printing and industry has been the indust.</p>
+                    </div>
+                </div>
+                <div class="card pb-5 hover:shadow-lg">
+                    <div class="img w-full">
+                        <img class="w-full" src="../assets/images/name-2.png" alt="Shoshana Horsley">
+                    </div>
+                    <div class="text mt-5">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Senior Gardener</p>
+                        </div>
+
+                        <h2 class="mt-3 font-[Playfair] text-[#177165] text-3xl">Kristofer Pennell</h2>
+
+                        <p class="text-[#777777] text-sm max-w-[293px] mt-3">It is a long established fact that a reader will distracted the readable content.</p>
+                    </div>
+                </div>
+                <div class="card pb-5 hover:shadow-lg">
+                    <div class="img w-full">
+                        <img class="w-full" src="../assets/images/name-3.png" alt="Shoshana Horsley">
+                    </div>
+                    <div class="text mt-5">
+                        <div class="flex items-center gap-3">
+                            <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                            <p class="text-[#777777] font-[18px]">Garden Designer</p>
+                        </div>
+
+                        <h2 class="mt-3 font-[Playfair] text-[#177165] text-3xl">Matthew Jackson</h2>
+
+                        <p class="text-[#777777] text-sm max-w-[293px] mt-3">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#E1F4F2CC] w-[450px] h-[880px] absolute top-0 left-0 z-[-1]"></div>
+        </section>
+
+        <section class="px-20 bg-[#177165]">
+            <div class="grid grid-cols-2 gap-8">
+                <div class="flex flex-col justify-center">
+                    <div class="flex items-center gap-3">
+                        <div class="ml-1 bg-[#A4D6CF] w-[40px] h-[1px]"></div>
+                        <p class="text-[#A4D6CF] font-[18px]">Company intro video</p>
+                    </div>
+                    <h3 class="font-[Playfair] text-6xl mt-4 text-white text-bold">
+                        See our intro video and lets start your dream project.
+                    </h3>
+                </div>
+                
+                <div class="img">
+                    <img src="../assets/images/project.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 px-20">
+            <div class="stats grid grid-cols-4 bg-[#E1F4F2] px-10 gap-20">
+                <div class="py-14">
+                    <h1 class="text-[#177165] text-5xl">847 +</h1>
+                    <div class="flex items-center gap-3">
+                        <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                        <p class="text-[#777777] font-[18px]">Project Done</p>
+                    </div>
+                </div>
+                <div class="py-14">
+                    <h1 class="text-[#177165] text-5xl">753 +</h1>
+                    <div class="flex items-center gap-3">
+                        <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                        <p class="text-[#777777] font-[18px]">Happy Client</p>
+                    </div>
+                </div>
+                <div class="py-14">
+                    <h1 class="text-[#177165] text-5xl">284 +</h1>
+                    <div class="flex items-center gap-3">
+                        <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                        <p class="text-[#777777] font-[18px]">Team Member</p>
+                    </div>
+                </div>
+                <div class="py-14">
+                    <h1 class="text-[#177165] text-5xl">98 +</h1>
+                    <div class="flex items-center gap-3">
+                        <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                        <p class="text-[#777777] font-[18px]">Winning Award</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="carouselExampleCaptions" class="carousel slide relative mt-20" data-bs-ride="carousel">
+                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner relative w-full overflow-hidden">
+                  <div class="carousel-item active relative float-left w-full">
+                    <img
+                      src="../assets/images/slider.png"
+                      class="block w-full h-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden w-[266px] h-[333px] bg-[#177165] md:block absolute bottom-0 left-0 pl-[50px] pt-[60px]">
+                      <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Project:</h5>
+                      <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Farm Design</h2>
+
+                      <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Client:</h5>
+                      <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Alex Milan</h2>
+
+                      <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Location</h5>
+                      <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Mississippi, USA</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="../assets/images/slider.png"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden w-[266px] h-[333px] bg-[#177165] md:block absolute bottom-0 left-0 pl-[50px] pt-[60px]">
+                        <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Project:</h5>
+                        <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Farm Design</h2>
+  
+                        <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Client:</h5>
+                        <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Alex Milan</h2>
+  
+                        <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Location</h5>
+                        <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Mississippi, USA</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="../assets/images/slider.png"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden w-[266px] h-[333px] bg-[#177165] md:block absolute bottom-0 left-0 pl-[50px] pt-[60px]">
+                        <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Project:</h5>
+                        <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Farm Design</h2>
+  
+                        <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Client:</h5>
+                        <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Alex Milan</h2>
+  
+                        <h5 class="text-[#A4D6CF] font-[400] text-sm mt-5">Location</h5>
+                        <h2 class="font-[Playfair] text-2xl font-[400] mt-1">Mississippi, USA</h2>
+                      </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev absolute top-[37rem] w-[50px] h-[50px] left-0 border-2 border-[#A4D6CF] flex justify-center items-center  hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                > 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#177165]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-prev absolute top-[37rem] w-[50px] h-[50px] left-20 border-2 border-[#A4D6CF] flex justify-center items-center hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#177165]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+        </section>
+
+        <section class="py-20 mt-[100px] bg-[#E1F4F2]">
+            <div class="px-20">
+                <div class="flex items-center gap-3">
+                    <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                    <p class="text-[#777777] font-[18px]">Company intro video</p>
+                </div>
+                <h3 class="font-[Playfair] text-5xl mt-4 text-[#177165] text-normal">
+                    Farmzi got best feedback from happy clients
+                </h3>
+
+                  <div class="swiper-container mySwiper overflow-hidden">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide py-10 px-16 mt-16 bg-white duration-300 ease-in-out hover:scale-[0.9] hover:shadow-lg">
+                            <p class="font-[Playfair] text-2xl text-[#177165]">
+                                “Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
+                            </p>
+          
+                            <div class="flex items-center gap-3 mt-10">
+                                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                                <p class="text-[#777777] font-[18px]">Designer of Musion</p>
+                            </div>
+          
+                            <h1 class="font-[Playfair] text-2xl mt-2 text-[#177165] text-normal">Rachel Patterson</h1>
+                        </div>
+                        
+                        <div class="swiper-slide py-10 px-16 mt-16 bg-white duration-300 ease-in-out hover:scale-[0.9] hover:shadow-lg">
+                            <p class="font-[Playfair] text-2xl text-[#177165]">
+                                “Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
+                            </p>
+          
+                            <div class="flex items-center gap-3 mt-10">
+                                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                                <p class="text-[#777777] font-[18px]">Designer of Musion</p>
+                            </div>
+          
+                            <h1 class="font-[Playfair] text-2xl mt-2 text-[#177165] text-normal">Rachel Patterson</h1>
+                        </div>
+                        
+                        <div class="swiper-slide py-10 px-16 mt-16 bg-white duration-300 ease-in-out hover:scale-[0.9] hover:shadow-lg">
+                            <p class="font-[Playfair] text-2xl text-[#177165]">
+                                “Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
+                            </p>
+          
+                            <div class="flex items-center gap-3 mt-10">
+                                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                                <p class="text-[#777777] font-[18px]">Designer of Musion</p>
+                            </div>
+          
+                            <h1 class="font-[Playfair] text-2xl mt-2 text-[#177165] text-normal">Rachel Patterson</h1>
+                        </div>
+                        
+                        <div class="swiper-slide py-10 px-16 mt-16 bg-white duration-300 ease-in-out hover:scale-[0.9] hover:shadow-lg">
+                            <p class="font-[Playfair] text-2xl text-[#177165]">
+                                “Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
+                            </p>
+          
+                            <div class="flex items-center gap-3 mt-10">
+                                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                                <p class="text-[#777777] font-[18px]">Designer of Musion</p>
+                            </div>
+          
+                            <h1 class="font-[Playfair] text-2xl mt-2 text-[#177165] text-normal">Rachel Patterson</h1>
+                        </div>
+
+                        <div class="swiper-slide py-10 px-16 mt-16 bg-white duration-300 ease-in-out hover:scale-[0.9] hover:shadow-lg">
+                            <p class="font-[Playfair] text-2xl text-[#177165]">
+                                “Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
+                            </p>
+          
+                            <div class="flex items-center gap-3 mt-10">
+                                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                                <p class="text-[#777777] font-[18px]">Designer of Musion</p>
+                            </div>
+          
+                            <h1 class="font-[Playfair] text-2xl mt-2 text-[#177165] text-normal">Rachel Patterson</h1>
+                        </div>
+
+                        <div class="swiper-slide py-10 px-16 mt-16 bg-white duration-300 ease-in-out hover:scale-[0.9] hover:shadow-lg">
+                            <p class="font-[Playfair] text-2xl text-[#177165]">
+                                “Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem has been the industry's standard dummy text since the 1500 when an unknown printer took galley type and scram bled it make a type specimen book
+                            </p>
+          
+                            <div class="flex items-center gap-3 mt-10">
+                                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                                <p class="text-[#777777] font-[18px]">Designer of Musion</p>
+                            </div>
+          
+                            <h1 class="font-[Playfair] text-2xl mt-2 text-[#177165] text-normal">Rachel Patterson</h1>
+                        </div>
+                        
+                    </div>
+            </div>
+
+        </section>
+
+        <section class="py-20 px-20">
+            <div class="flex items-center gap-3">
+                <div class="ml-1 bg-[#777777] w-[40px] h-[1px]"></div>
+                <p class="text-[#777777] font-[18px]">Latest News</p>
+            </div>
+            <h3 class="font-[Playfair] text-5xl mt-4 text-[#177165] text-normal">
+                Check now latest tips and tricks of gardening and landscaping from blog.
+            </h3>
+            <div class="grid grid-cols-2 gap-10 mt-10">
+                <div class="card">
+                    <div class="w-full">
+                        <img class="w-full" src="../assets/images/newscard-1.png" alt="">
+                    </div>
+                    <div class="bg-[#E1F4F2] p-8 pr-[120px]">
+                        <div class="flex">
+                            <p class="text-base text-[#177165] mr-5">Date: <strong class="text-[#777777] font-[400] text-[15px]">March 23, 2022</strong></p>
+                            <p class="text-base text-[#177165]">By: <strong class="text-[#777777] font-[400] text-[15px]">Kristofer Pennell</strong></p>
+                        </div>
+                        <h3 class="font-[Playfair] text-2xl mt-5 mb-5 text-[#177165] text-normal">
+                            If You're Not Getting Your Garden Harvested Things!
+                        </h3>
+
+                        <p class="text-[#777777] text-base">Lorem Ipsum is simply dummy text the printing and tpesetting industry. Lorem industry's standard dummy.</p>
+    
+                        <form action="">
+                            <button class="bg-white mt-5 py-2 px-14 text-[#177165] hover:animate-ping">Read More +</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="w-full">
+                        <img class="w-full" src="../assets/images/newscard-1.png" alt="">
+                    </div>
+                    <div class="bg-[#E1F4F2] p-8 pr-[120px]">
+                        <div class="flex">
+                            <p class="text-base text-[#177165] mr-5">Date: <strong class="text-[#777777] font-[400] text-[15px]">March 23, 2022</strong></p>
+                            <p class="text-base text-[#177165]">By: <strong class="text-[#777777] font-[400] text-[15px]">Kristofer Pennell</strong></p>
+                        </div>
+                        <h3 class="font-[Playfair] text-2xl mt-5 mb-5 text-[#177165] text-normal">
+                            If You're Not Getting Your Garden Harvested Things!
+                        </h3>
+
+                        <p class="text-[#777777] text-base">Lorem Ipsum is simply dummy text the printing and tpesetting industry. Lorem industry's standard dummy.</p>
+    
+                        <form action="">
+                            <button class="bg-white mt-5 py-2 px-14 text-[#177165] hover:animate-ping">Read More +</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="bg-[#E1F4F2] py-20">
+            <div class="px-20 grid grid-cols-5 gap-20">
+                <img class="duration-300 ease-in-out hover:scale-[1.1]" src="../assets/images/logotip-1.png" alt="">
+                <img class="duration-300 ease-in-out hover:scale-[1.1]" src="../assets/images/logotip-2.png" alt="">
+                <img class="duration-300 ease-in-out hover:scale-[1.1]" src="../assets/images/logotip-3.png" alt="">
+                <img class="duration-300 ease-in-out hover:scale-[1.1]" src="../assets/images/logotip-4.png" alt="">
+                <img class="duration-300 ease-in-out hover:scale-[1.1]" src="../assets/images/logotip-5.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="bg-[#177165] text-white">
+            <div class="py-20 px-[9rem]">
+                <div class="grid grid-cols-5 gap-[80px]">
+                    <div class="text pt-20">
+                        <h3 class="font-[400] font-[Playfair] text-3xl">Explore</h3>
+                        <ul>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">About us</span>
+                                </a>
+                            </li>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">FAQ</span>
+                                </a>
+                            </li>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">Press & Blog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text pt-20">
+                        <h3 class="font-[400] font-[Playfair] text-3xl">Information</h3>
+                        <ul>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">Style Guide</span>
+                                </a>
+                            </li>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">Change Log</span>
+                                </a>
+                            </li>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">License</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text pt-20">
+                        <h3 class="font-[400] font-[Playfair] text-3xl">Service</h3>
+                        <ul>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">Flower</span>
+                                </a>
+                            </li>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">Planting</span>
+                                </a>
+                            </li>
+                            <li class="mt-7 hover:opacity-60">
+                                <a class="flex gap-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[25px] w-[15px]" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="flex items-center">Watering</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2 block bg-[#23786D] p-[60px]">
+                        <a href="#">
+                            <img class="w-[162px] h-[49px]" src="../assets/images/logo.png" alt="">
+                        </a>
+
+                        <p class="mt-16 text-base">
+                            Lorem Ipsum is simply dummy text of the printing and typeset industry has been the industry's standard. 
+                        </p>
+                        <div class="flex mt-14">
+                            <img src="../assets/images/tel.png" alt="">
+                            <div class="ml-2 text-white">
+                                <p class="text-[#A4D6CF]">Call us:</p>
+                                <a href="tel:+00 89 458 648">+00 89 458 648</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-6 bg-[#0A312C] text-center text-white">
+            <p>
+                © 2022 design and developed by <span class="text-[#A4D6CF]">Albison</span>. Powered by <span class="text-[#A4D6CF]">Webflow</span>.
+            </p>
+        </div>
+        
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 2.5,
+        slidesPerColumn: 3,
+        spaceBetween: 20,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>

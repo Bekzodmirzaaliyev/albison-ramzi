@@ -1,0 +1,20 @@
+@import url(../fonts/Roboto-Regular.ttf);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
